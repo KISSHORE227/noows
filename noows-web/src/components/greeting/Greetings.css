@@ -1,0 +1,84 @@
+/* ===========================
+   GREETING
+=========================== */
+
+.greeting {
+  width: 100%;
+}
+
+.greeting__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Good Morning */
+
+.greeting__time {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+/* Main Heading */
+
+.greeting__title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111827;
+}
+
+/* Subtitle */
+
+.greeting__subtitle {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #6b7280;
+  max-width: 500px;
+}
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (min-width: 768px) {
+
+  .greeting__title {
+    font-size: 2.5rem;
+  }
+
+}
+
+/* ===========================
+   DESKTOP
+=========================== */
+
+@media (min-width: 1024px) {
+
+  .greeting__title {
+    font-size: 3rem;
+  }
+
+  .greeting__subtitle {
+    font-size: 1.1rem;
+  }
+
+}@media(max-width:768px){
+
+.article__title{
+
+font-size:1.8rem;
+}
+
+.greeting__title{
+
+font-size:2rem;
+}
+
+.story-card{
+
+padding:18px;
+}
+
+}

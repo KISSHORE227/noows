@@ -1,0 +1,89 @@
+.brief-page {
+  min-height: 100vh;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  padding: 40px 20px;
+  font-family: system-ui, -apple-system, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.brief-page__container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.brief-page__topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.brief-page__back {
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.brief-page__card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: 14px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.brief-page__title {
+  margin: 0 0 8px;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  color: var(--text-primary);
+}
+
+.brief-page__source {
+  margin: 0 0 24px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.brief-page__section {
+  margin-bottom: 20px;
+}
+
+.brief-page__section h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.brief-page__section p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.brief-page__actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.brief-page__btn {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.brief-page__btn:hover {
+  opacity: 0.9;
+}
